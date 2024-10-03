@@ -4,7 +4,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((500,500))
 screen.fill("white")
-pygame.display.set_caption("Drawing shapes on surface")
+pygame.display.set_caption("Drawing shapes on a screen")
 
 pygame.draw.line(screen, "black", (0,0),(300, 300),5)
 pygame.draw.lines(screen,"orange", True, [(100,100), (200,100), (100,200)], 4)
